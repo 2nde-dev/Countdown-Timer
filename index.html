@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <div id="display"></div>
+      <table border="1" id="tab">
+        <tr>
+          <td colspan="3" align="center" id="title">Countdown Timer</td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="HRS" id="hours" /></td>
+          <td><input type="text" placeholder="MIN" id="minutes" /></td>
+          <td><input type="text" placeholder="SEC" id="seconds" /></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">
+            <button onclick="countDown()">Start Countdown</button>
+          </td>
+        </tr>
+      </table>
+    </center>
+
+    <script src="app.js"></script>
+  </body>
+</html>
