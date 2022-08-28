@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/glass.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#tab {
+  margin-top: 200px;
+  border: none;
+  backdrop-filter: blur(0px) saturate(200%);
+  -webkit-backdrop-filter: blur(0px) saturate(200%);
+  background-color: rgba(178, 64, 66, 0.57);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+#tab tr {
+  height: 7vh;
+}
+
+#tab input {
+  /* height: 5vh;
+  font-size: 2rem;
+  margin: 15px;
+  background-color: aqua;
+  border: none;
+  border-radius: 7px;
+  padding-left: 8px;
+  color: red; */
+
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  border-radius: 89% 29% 90% 23% / 0% 100% 0% 100%;
+  border-color: transparent;
+  width: 20vw;
+  height: 5vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: inherit;
+  box-shadow: 23px 23px 46px #bebebe, -23px -23px 46px #ffffff;
+}
+input:placeholder {
+  color: white;
+}
+
+#tab button {
+  width: 30vw;
+  height: 5vh;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: rgb(106, 150, 106);
+  border: none;
+  border-radius: 40px;
+}
+#tab button:hover {
+  background-color: yellow;
+  cursor: pointer;
+  color: green;
+}
+
+#title {
+  font-size: 3rem;
+  color: blue;
+}
+
+#display {
+  margin-top: 100px;
+  border: thick solid purple;
+  width: 30vw;
+  height: 7vh;
+  color: sienna;
+  border-radius: 7px;
+  font-size: 3rem;
+  padding: 5px;
+  backdrop-filter: blur(0px) saturate(200%);
+  -webkit-backdrop-filter: blur(0px) saturate(200%);
+  background-color: rgba(178, 64, 66, 0.57);
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
